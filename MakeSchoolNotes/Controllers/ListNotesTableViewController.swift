@@ -33,6 +33,9 @@ class ListNotesTableViewController: UITableViewController {
             
             notes = CoreDataHelper.retrieveNotes()
         }
+        
+        
+        
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
